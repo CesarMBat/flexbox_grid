@@ -1,0 +1,55 @@
+body{
+    background-color: black;
+}
+div {
+    text-align: center;
+    background-color: blueviolet;
+    animation: rainbow 10s linear infinite;
+}
+@keyframes rainbow {
+    0%{
+        background-color: red;
+    }
+    14%{
+        background-color: orange;
+    }
+    28%{
+        background-color: yellow;
+    }
+    42%{
+        background-color: green;
+    }
+    56%{
+        background-color: blue;
+    }
+    70%{
+        background-color: indigo;
+    }
+    84%{
+        background-color: violet;
+    }
+    100%{
+        background-color: red;
+    }
+}
+img {
+    border: solid 1px gray;
+    border-radius: 15px;
+}
+.anima{
+    animation: mov 2s infinite reverse;
+}
+@keyframes mov {
+    0% {
+        transform: translateX(0)
+    }
+    30% {
+        transform: translateX(-600px);
+    }
+    60% {
+        transform: translateX(600px);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}

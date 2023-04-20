@@ -1,0 +1,36 @@
+@charset "UTF-8";
+img {
+    width: 500px;
+    height: 500px;
+    float: right;
+}
+
+body {
+    background-color: #000;
+}
+.anfitras {
+    background-color: #000;
+    display: inline-flex;
+}
+p {
+    color: blueviolet;
+}
+h1 {
+    color: blueviolet;
+}
+.braum {
+    color: white;
+}
+@media (max-width: 500px) {
+    p {
+        font-size: 1.5em;
+    }
+    img {
+        display: none;
+    }
+}
+@media (min-width: 800px) {
+    body {
+        background-color: gray;
+    }
+}

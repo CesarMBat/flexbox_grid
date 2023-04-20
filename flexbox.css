@@ -1,0 +1,32 @@
+body{
+    background-color: gray;
+}
+.container{
+    width: 70vw;
+    height: 80vh;
+    background-color: aliceblue;
+    border: 1px solid blue;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between center;
+    align-items: center;
+}
+.div1, .div2, .div3 {
+    width: 150px;
+    height: 150px;
+    margin: 5px;
+}
+
+.div1{
+    background-color: aqua;
+    order: 1;
+}
+.div2{
+    background-color: #e0115f ;
+    order: 2;
+}
+.div3{
+    background-color: blueviolet;
+    order: 0;
+    flex-shrink: 2;
+}

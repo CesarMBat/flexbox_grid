@@ -1,0 +1,21 @@
+#sapeca:focus{
+    background-color: aliceblue;
+    color:blueviolet;
+}
+#segredo:active{
+    color: aqua;
+}
+#segredo2:visited{
+    color: red;
+}
+.AI::after{
+    content: 'Mãe idol ';
+    color: violet;
+}
+.Aqua::before{
+    content: ' Filho ator'; 
+    color: aquamarine;  
+}
+.Ruby::selection{
+    background-color: red;
+}
